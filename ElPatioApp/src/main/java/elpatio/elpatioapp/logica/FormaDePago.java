@@ -1,25 +1,27 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package elpatio.elpatioapp.logica;
 
-/**
- *
- * @author Leo
- */
+
 public class FormaDePago {
     
     private int id;
     private String formaDePago;
+    private Boolean estado;
 
     public FormaDePago() {
     }
 
-    public FormaDePago(int id, String formaDePago) {
+    public FormaDePago(int id, String formaDePago, Boolean estado) {
         this.id = id;
         this.formaDePago = formaDePago;
+        this.estado = estado;
+    }
+
+    public Boolean getEstado() {
+        return estado;
+    }
+
+    public void setEstado(Boolean estado) {
+        this.estado = estado;
     }
 
     public int getId() {
