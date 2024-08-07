@@ -49,7 +49,7 @@ public class AgregarCategoria extends javax.swing.JFrame {
         });
 
         btnVolver2.setForeground(new java.awt.Color(255, 255, 255));
-        btnVolver2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Leo\\Desktop\\AppRestaurante-master\\boton_volver.png")); // NOI18N
+        btnVolver2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/META-INF/boton_volver.png"))); // NOI18N
         btnVolver2.setBorder(null);
         btnVolver2.setBorderPainted(false);
         btnVolver2.setContentAreaFilled(false);

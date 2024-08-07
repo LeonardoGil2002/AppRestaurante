@@ -107,7 +107,7 @@ public class EliminarEditarFDP extends javax.swing.JFrame {
         });
 
         btnVolver1.setForeground(new java.awt.Color(255, 255, 255));
-        btnVolver1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Leo\\Desktop\\AppRestaurante-master\\boton_volver.png")); // NOI18N
+        btnVolver1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/META-INF/boton_volver.png"))); // NOI18N
         btnVolver1.setBorder(null);
         btnVolver1.setBorderPainted(false);
         btnVolver1.setContentAreaFilled(false);
